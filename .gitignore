@@ -1,0 +1,39 @@
+# Keil generated listing files
+**/Listings/
+
+# Keil generated object and build files
+**/Objects/*.obj
+**/Objects/*.lst
+**/Objects/*.m51
+**/Objects/*.abs
+**/Objects/*.omf
+**/Objects/*.lnp
+**/Objects/*.build_log.htm
+**/Objects/*.crf
+**/Objects/*.dep
+**/Objects/*.__i
+
+# User-specific Keil settings
+**/*.uvgui*
+**/*.uvopt*
+
+# Generated intermediate build files
+**/*.axf
+**/*.o
+**/*.d
+**/*.map
+**/*.elf
+
+# Generated build directories
+**/Debug/
+**/Release/
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Ensure firmware files are strictly tracked
+!**/Objects/*.hex
+!**/MDK-ARM/*.hex
+!*.hex
